@@ -31,7 +31,10 @@
 ## How to install uv (using pip)
 - **Open terminal/powershell**
   ```bash
+  # Install
   pip install uv
+  # Test if working by getting the version
+  uv --version
   ```
 ## Example Commands
 
