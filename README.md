@@ -60,4 +60,20 @@ uv run hello.py
 uv self update
 ```
 
+## Create a python project complete with (.git, .gitignore, .python-version, main.py, pyproject.toml and README.md)
+
+```bash
+# Initialize a new project
+uv init myproject
+cd myproject
+# run the project, this also creates the .venv(virtuanl environment) 
+uv run main.pu
+# to add dependencies, edit the pyproject.toml
+dependencies = ["request", "rich"]
+# or manually add to dependencies via command line
+uv add requests rich
+
+
+
+```
 
