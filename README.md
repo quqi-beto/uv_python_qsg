@@ -67,7 +67,7 @@ uv self update
 uv init myproject
 cd myproject
 # run the project, this also creates the .venv(virtuanl environment) 
-uv run main.pu
+uv run main.py
 # to add dependencies, edit the pyproject.toml
 dependencies = ["request", "rich"]
 # or manually add to dependencies via command line
