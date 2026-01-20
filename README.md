@@ -60,6 +60,16 @@ uv run hello.py
 uv self update
 ```
 
+## Manage Multiple Python
+```bash
+# Display a list of installed and available Python versions that the uv tool can manage and use
+uv python list
+# Automatically download and install specific version of Python
+uv python install 3.13.5
+# Uninstall specific version of Python installed
+uv python uninstall 3.13.5
+```
+
 ## Create a python project complete with (.git, .gitignore, .python-version, main.py, pyproject.toml and README.md)
 
 ```bash
