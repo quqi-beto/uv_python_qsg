@@ -79,10 +79,11 @@ cd myproject
 # run the project, this also creates the .venv(virtuanl environment) 
 uv run main.py
 # to add dependencies, edit the pyproject.toml
-dependencies = ["request", "rich"]
+dependencies = ["request", "fastapi"]
 # or manually add to dependencies via command line
-uv add requests rich
-
+uv add requests fastapi
+# this will automatically download and install the depedencies and put them in the dependencies array
+dependencies = ["request", "fastapi"]
 
 
 ```
