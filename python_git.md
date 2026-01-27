@@ -51,7 +51,7 @@ git commit -m "Initial commit: uv project structure"
 3. **Do not** initialize it with a README, license, or gitignore (since we already have them).
 4. Click **Create repository**.
 
-### 5. Link and Push (If using Option B)
+### 5. Link and Push
 
 Copy the remote URL from the page that appears and run:
 
